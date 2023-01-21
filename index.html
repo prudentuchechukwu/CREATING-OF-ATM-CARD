@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOW TO CREATE ATM CARD</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet" />
+</head>
+<body>
+<!-- background circles -->
+<div class="circles">
+    <div class="circle circle-1"></div>
+    <div class="circle circle-2"></div>
+  </div>
+
+  <div class="container">
+    <h1>ECO BANK PLC</h1>
+
+    <!-- Card -->
+    <div class="card">
+      <img class="logo" src="./image/visa.png" />
+
+      <!-- Card Number -->
+      <label>CARD NUMBER</label>
+      <input
+        class="card-number"
+        placeholder="1234 1234 1234 1234" type="text" required
+        maxlength="16" />
+
+      <div class="container2">
+        <!-- Card Holder -->
+        <div class="name">
+          <label>CARD HOLDER</label>
+          <input
+            class="card-name"
+            placeholder="ORIE PRUDENT. U" type="text" required />
+        </div>
+
+        <!-- Date -->
+        <div class="expiration-date">
+          <label>EXP. DATE</label>
+          <input
+            class="card-name"
+            placeholder="10/25"type="text" maxlength="5" required />
+        </div>
+
+        <!-- Cvv -->
+        <div class="ccv">
+          <label>CCV</label>
+          <input
+            class="card-name"
+            placeholder="123"type="text"maxlength="3" required />
+        </div>
+      </div>
+    </div>
+  </div>   
+</body>
+</html>
